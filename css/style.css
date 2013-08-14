@@ -1,0 +1,55 @@
+.over {
+	border: 3px dashed black;
+}
+
+body,html {
+	height: 100%;
+}
+
+body {
+	margin:0;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color:#696969;
+}
+
+section {
+  display: inline-block;
+  border: 1px solid #494949;
+  background-color: #373737;
+  color:#DDDDDD;
+  padding: 1em;
+  margin: .5em 0 1em;
+  border-radius: 10px;
+}
+
+.sp-popup {
+  display: inline-block;
+  border: 2px solid #494949;
+  background-color: #DDDDDD;
+  color:#373737;
+  padding: 1em;
+  margin: .5em 0 1em;
+  border-radius: 10px;
+}
+
+h2 {
+	margin-bottom:0;
+	margin-left:1em;
+	font-size:12px;
+	font-weight:normal;
+	color:#fff	;
+}
+
+.dropzone {
+	width: 80%;
+	padding:20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	background-color: #B7B7B7;
+	text-align: center;
+	color: #494949;
+	margin-top: 10px;
+
+}

@@ -5,25 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Filter Explicit</title>
     <link rel="stylesheet" href="$views/css/buttons.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
   </head>
   <body>
-    <div id="filterContainer">
-    <h1>Filter Explicit Songs</h1>
+    <div id="mylog"></div>
+    <h2 class="subhead">Filter Explicit Songs</h2>
+    <section id="filterContainer">
     <p>Turning this on will automatically skip any song with the <strong>Explicit</strong> tag.</p>
-    <fieldset>
-        <div class="state-wrapper">
-        <input type="radio" id="state-true" name="state" value="true" /> <label for="state-true">Filter</label>
-        <input type="radio" id="state-false" name="state" value="false" /> <label for="state-false">Do not filter</label>
-    </fieldset>
-    </div>
-    <div id="playlistContainer">
-        <h1>Create filtered playlists</h1>
+    
+    <div class="state-wrapper">
+    <input type="radio" id="state-true" name="state" value="true" /> <label for="state-true">Filter</label>
+    <input type="radio" id="state-false" name="state" value="false" /> <label for="state-false">Do not filter</label>
+
+    </section>
+    <h2 class="subhead">Create filtered playlists</h2>
+    <section id="playlistContainer">
         <p> Since this app only works on desktops, if you want to filter explicit songs on mobile, you need to create (and maintain) coppies of your playlists without the explicit songs on them.<br/><br/>
         This tool does that for you.
         </p>
 
+        <div id="syncedPlaylistsContainer">
+            <div class="syncedPlaylists"></div>
+            <div class="dropzone instructions">Drop playlists here</div>
+        </div>
+
         
-    </div>
+    </section>
     <script src="scripts/main.js"></script>
   </body>
 </html>
