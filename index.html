@@ -3,34 +3,36 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Filter Explicit</title>
+    <title data-i18n="title"></title>
     <link rel="stylesheet" href="$views/css/buttons.css">
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
   </head>
   <body>
-    <div id="mylog"></div>
-    <h2 class="subhead">Filter Explicit Songs</h2>
+    <div id="page">
+    <h2 class="subhead" data-i18n="title"></h2>
     <section id="filterContainer">
-    <p>Turning this on will automatically skip any song with the <strong>Explicit</strong> tag.</p>
+    <p data-i18n="filter_instructions"></p>
     
     <div class="state-wrapper">
-    <input type="radio" id="state-true" name="state" value="true" /> <label for="state-true">Filter</label>
-    <input type="radio" id="state-false" name="state" value="false" /> <label for="state-false">Do not filter</label>
+    <input type="radio" id="state-true" name="state" value="true" /> <label for="state-true" data-i18n="filter"></label>
+    <input type="radio" id="state-false" name="state" value="false" /> <label for="state-false" data-i18n="do_not_filter"></label>
+    <br/><strong><span data-i18n="only_desktop"></span></strong>
 
     </section>
-    <h2 class="subhead">Create filtered playlists</h2>
+    <h2 class="subhead" data-i18n="create_filtered"></h2>
     <section id="playlistContainer">
-        <p> Since this app only works on desktops, if you want to filter explicit songs on mobile, you need to create (and maintain) coppies of your playlists without the explicit songs on them.<br/><br/>
-        This tool does that for you.
-        </p>
-
         <div id="syncedPlaylistsContainer">
             <div class="syncedPlaylists"></div>
-            <div class="dropzone instructions">Drop playlists here</div>
+            <div class="dropzone instructions" data-i18n="drag_zone"></div>
         </div>
-
         
+        <div id="morehelp">
+            <h3 data-i18n="more_help"></h3>
+            <div data-i18n="extended_help"></div>
+        </div>
     </section>
+</div>
     <script src="scripts/main.js"></script>
+
   </body>
 </html>

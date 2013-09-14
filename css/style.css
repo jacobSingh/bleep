@@ -1,16 +1,15 @@
-.over {
-	border: 3px dashed black;
-}
-
 body,html {
 	height: 100%;
+	background-color:#696969;
+	margin:0;
 }
 
-body {
-	margin:0;
-	padding-left: 40px;
-	padding-right: 40px;
-	background-color:#696969;
+#page { 
+    min-height: 90%; 
+    position: relative;
+    overflow: hidden;
+    margin-left: 40px;
+	margin-right: 40px;
 }
 
 section {
@@ -21,6 +20,8 @@ section {
   padding: 1em;
   margin: .5em 0 1em;
   border-radius: 10px;
+  width:96%;
+  max-width:700px;
 }
 
 .sp-popup {
@@ -42,14 +43,58 @@ h2 {
 }
 
 .dropzone {
-	width: 80%;
 	padding:20px;
-	margin-left: auto;
-	margin-right: auto;
 	border-radius: 10px;
 	background-color: #B7B7B7;
 	text-align: center;
 	color: #494949;
 	margin-top: 10px;
-
+	font-size: 2em;
 }
+
+.over {
+	border: 3px dashed black;
+}
+
+.playlists {
+	border-collapse: collapse;
+	border-width:0;
+}
+
+.playlists tr.odd {
+	background-color: #373737;	
+}
+
+.playlists tr.even {
+	background-color: #171717;	
+}
+
+.playlists th {
+	border-bottom: 3px solid #494949;
+	margin:0;
+	text-align: left;
+	padding-left:1em;
+}
+
+.playlists td {
+	width:50%;
+	padding:.5em;
+	padding-left:1em;
+	margin:0px;
+	border:0px;
+}
+
+.playlists td.action {
+	width:100px;
+}
+
+.syncedPlaylists {
+	margin-bottom:2em;
+	border: 1px solid #494949;
+	border-radius: 10px;
+}
+
+#syncedPlaylistsContainer {
+	margin-bottom:4em;
+}
+

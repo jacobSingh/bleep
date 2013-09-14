@@ -1,3 +1,23 @@
 {
-  "hello": "Hello world"
+  
+
+  "title": "Filter explicit songs (desktop only)",
+  "filter_instructions": "Turning this on will automatically skip any song with the <strong>Explicit</strong> tag.",
+  "filter": "Filter",
+  "do_not_filter": "Do not filter",
+  "only_desktop": "Note: this will only work on Spotify desktop. For mobile, see below.",
+  "drag_zone": "Drag playlists here to create \"clean\" coppies",
+  "create_filtered": "Create filtered playlists (mobile and desktop)",
+  "drag_instructions": "Drag playlists from the left sidebar into the area below to create filtered playlists without explicit songs.",
+  "more_help": "More Help",
+  "extended_help": "<p>The filtered playlists will be prefixed by <strong>---</strong> (e.g. ---My favorite songs).  You can rename them if you want, the app will remember and continue to sync them up.</p><p> Unfortunately, due to Spotify limitations, you must visit the app everytime you restart spotify desktop to keep them in sync.  Doing so will automatically sync them back up.</p>",
+
+  
+
+  "playlist": "Playlist",
+  "status": "Status",
+  "synced": "Synched",
+  "syncing": "Synching",
+  "remove": "Remove",
+  "already_added": "This playlist has already been added"
 }

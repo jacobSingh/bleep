@@ -1,6 +1,6 @@
 {
   "AppDescription": {
-    "en": "Filter Explicit Songs"
+    "en": "Filters explicit songs when kids are around"
   },
   "AppIcon": {
     "18x18": "images/icons/icon-18x18.png",
@@ -11,11 +11,11 @@
     "300x300": "images/icons/icon-300x300.png"
   },
   "AppName": {
-    "en": "Filter Explicit Songs"
+    "en": "Bleep: Filter Explicit Songs"
   },
-  "BundleIdentifier": "fexp",
+  "BundleIdentifier": "bleep",
   "BundleType": "Application",
-  "BundleVersion": "0.0.1",
+  "BundleVersion": "1.0.0",
   "Dependencies": {
     "api": "1.3.0",
     "views": "1.10.0"
