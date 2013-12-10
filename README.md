@@ -7,3 +7,4 @@ When you turn this on, Spotify will skip any songs with the
 Now you can play any playlist you want around your kids, parents, 
 prudes, etc.
 
+Read more at http://www.jacobsingh.name/content/bleep-kid-friendly-playlists-filter-explicit-songs-spotify
