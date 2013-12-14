@@ -11,8 +11,8 @@
   "drag_instructions": "Drag playlists from the left sidebar into the area below to create filtered playlists without explicit songs.",
   "more_help": "More Help",
   "extended_help": "<p>The filtered playlists will be prefixed by <strong>---</strong> (e.g. ---My favorite songs).  You can rename them if you want, the app will remember and continue to sync them up.</p><p> Unfortunately, due to Spotify limitations, you must visit the app everytime you restart spotify desktop to keep them in sync.  Doing so will automatically sync them back up.</p>",
-
-  
+  "dirty_list": "What about all the dirty songs which Spotify doesn't tag?",
+  "dirty_list_help": "<p>Many tracks which are explicit are not categorized correctly in spotify.  Since loading this app, you have a playlist called \"Bleep-Dirty-Songs\".  Adding any songs to that list will treat them as explicit.</p>",
 
   "playlist": "Playlist",
   "status": "Status",
