@@ -3,7 +3,7 @@ require([
   'scripts/filter-explicit',
   'scripts/playlist-maker',
   'scripts/auto_i18n',
-  'scripts/dirty-list'
+  'scripts/dirtylist'
 ], function(models, filterExplicit, playlistMaker,i18n,dirtyList) {
   'use strict';
 

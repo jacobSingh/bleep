@@ -49,7 +49,7 @@ require([
     // Get all the source playlists and load their names and tracks.
     var playlists = models.Playlist.fromURIs(srcPlaylists);
     var promises = [];
-    for (var i in playlists ) {
+    for (var i in playlists) {
       promises.push(playlists[i].load('name', 'tracks'));
     }
 
