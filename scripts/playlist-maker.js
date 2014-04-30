@@ -127,6 +127,7 @@ require([
   var syncKidFriendlyLists = function(playlistUris, cb) {
     var options;
     var explicitFilter = function(track) {return track.explicit !== true;};
+    //var dirtyListFilter = dirtyList.getDirtyListFilter();
 
     if (typeof cb != "function") {
       cb = function(result) {
